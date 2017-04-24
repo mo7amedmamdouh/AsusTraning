@@ -1,0 +1,237 @@
+/* Start Mopile Media */
+@media (max-width:870px){
+.bigLogo{
+    display: none;
+}
+.miniLogo{
+    display: block;
+}
+.miniLogo img{
+        width: 85%;
+    height: 51px;
+}
+    
+    
+}
+@media (max-width:360px){
+.HomePage{
+        height: 818px !important;
+
+}
+    
+}
+/* Big Screen */
+@media (min-width:1200px) 
+    {
+        .ourObjectives  , .ourObjectives .row , .ourObjectives .row  .col-md-4 , .edit{
+    height: 500px;
+}
+
+       .Dream img  , .Influent img{
+           position: absolute;
+           top: 50%;
+       }
+         .Influent img{
+             left: 20%;
+         }
+        .Acheive img:nth-child(2) {
+            position: absolute;
+            left: 15%;
+        }
+         .Acheive img:nth-child(1) {
+            position: absolute;
+            top: 32%;
+            left: -93px;
+             display: block;
+        }
+        .Acheive img:nth-child(4) {
+                position: absolute;
+                right: -34px;
+                top: 169px;        
+                display: block;
+
+        }
+        .Dream h2{
+            position: absolute;
+            bottom: -42px;
+            left: 10%;
+        }
+       .Acheive h2  {
+            position: absolute;
+            top: 39%;
+            left: 76px;
+        }
+        
+        .Influent h2  {
+            position: absolute;
+            bottom: -42px;
+            left: 26%;
+        }
+}
+
+
+/* End Mopile Media */
+
+/* End Home Page Sections */
+
+
+/* ============================================================= 
+ ** Start Events Section V1.0
+ ** 
+   ======================================================= */ 
+@media (min-width:1200px) 
+{
+            .Events{
+                    height: 500px;
+
+        }
+.Event {
+    position: relative;
+    width: 20%;
+    overflow: hidden;
+    float: left;
+    transform: skewX(-20deg);
+    border-right: 1px solid #fff;
+             -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+
+}
+.Event img {
+  transform: skewX(20deg);  
+             -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+
+    
+}
+
+.event1 img {
+        margin-left: -411px;
+
+}
+.event2 img {
+                margin-left: -586px;
+
+}
+.event3 img {
+        margin-left: -505px;
+
+}
+.event4 img {
+       margin-left: -221px; 
+}
+
+
+
+.EditOverLay{
+    display: none;
+}
+.Discription{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+      transform: skewX(20deg);  
+    z-index: 4;
+    display: none;
+
+}
+.Discription h1 , .Discription p    {
+    color: #fff;
+
+    margin-left: 120px;
+}
+}
+
+@media (min-width:769px) and (max-width:1200px) 
+    {
+
+        .Events{
+                    height: 500px;
+
+        }
+        .Event {
+    position: relative;
+    width: 20%;
+    overflow: hidden;
+    float: left;
+    border-right: 1px solid #fff;
+             -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+
+}
+.Event img {
+             -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+
+    
+}
+.Discription{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 4;
+    display: none;
+
+}
+.Discription h1:first-of-type {
+    font-size: 20px;
+}
+        Discription p:first-of-type {
+    font-size: 15px;
+}
+.Discription h1 , .Discription p    {
+    color: #fff;
+    margin-left: 60px
+}
+    }
+
+
+@media (max-width:769px) {
+    .bigScreen{
+        display: none;
+    }
+    .miniEdit{
+    height: 200px;
+        margin-bottom: 20px;
+
+}
+.mini1{
+    height: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+    .miniScreen{
+        display: block;
+    }
+    .Events{
+    height: 932px;
+
+    }
+    .Events .miniEdit {
+                             -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+
+    }
+      .mini1 img {
+          width:100%;
+      }
+    .miniDiscreption h4 {
+    font-size:  20px;
+}
+    .miniDiscreption p {
+    font-size: 10px;
+}
+    
+}

@@ -1,0 +1,322 @@
+body{
+    margin: 0 auto;
+}
+/*  Global in Home Page */
+.mainColor{
+    color: #f9a63c;
+}
+.BigText{
+    font-size: 80px;
+    font-weight: bold;
+        color: #c01c32;
+}
+/* End Global in Home Page */
+/* ============================================================= 
+ ** Start Nav Bar Bootstrap Section V1.0
+ ** 
+   ======================================================= */ 
+
+.navBarEdit{
+    height: 0;
+    background-color: transparent;
+    z-index: 3;
+}
+.navbar .container, .navbar .container-fluid {
+        margin-top: 10px;
+    
+}
+.MyBrand
+{
+    height: 60px;
+    width: 267px;
+    margin-top: -20px;
+}
+.miniLogo{
+    display: none;
+}
+.nav  li {
+    margin-right: 5px;  
+}
+.nav li a{
+    padding: 17px;
+    border: 2px solid #ccc;
+    border-radius: 13px;
+    margin-left: 0px;
+    color:#fff !important;
+}
+.nav li:hover a{
+    background-color: #f9a63c;
+    border: 2px solid #f9a63c;
+
+}
+/* End Nav Bar Edit */ 
+
+/* ============================================================= 
+ ** Start Partecles Section V1.0
+ ** 
+   ======================================================= */ 
+
+#particles-js{
+    height: 562px;
+    width: 100%;
+
+}
+
+/* ============================================================= 
+ ** Start Home Page V1.0
+ ** 
+   ======================================================= */ 
+
+.HomePage{
+    background-image: url("../img/Slider.jpg");
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -e-background-size: cover;
+    background-size: cover;
+    position: relative;
+    margin-top: -83px;
+    height: 653px
+
+}
+.HomePage .overLay{
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    
+}
+.particles-js-canvas-el{
+    height: 94% !important;
+}
+.HomePage .overLay .container .row{
+    margin-top: 200px;
+    color: #fff;
+}
+.Descripion p {
+    font-size: 40px;
+}
+.button {
+    float: right;
+}
+.button a{
+        width: 168px;
+    height: 51px;
+    line-height: 33px;
+    font-size: 18px;
+    background-color: rgba(220, 31, 56,.6);
+    border-radius: 5px;
+
+}
+.button a:hover{
+  background-color: rgba(220, 31, 56,1);  
+}
+/* ---------------------------------------------------------------------- */
+/* ============================================================= 
+ ** Start About Us V1.0
+ ** 
+   ======================================================= */ 
+
+.aboutUs{
+    margin-top: 70px;
+}
+.aboutUs h1 {
+        margin-bottom: 44px;
+  
+}
+.Description p{
+    margin-top: 20px;
+}
+.firstPart{
+    margin-bottom: 50px;
+}
+
+
+/* ============================================================= 
+ ** Start Our Objective V1.0
+ ** 
+   ======================================================= */ 
+.ourObjectives  
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+  .ourObjectives .row , .ourObjectives .row  .col-md-4 , .edit{
+    height: 360px;
+}
+.arrow{
+    display: none;
+}
+
+/* ============================================================= 
+ ** Start Events Section V1.0
+ ** 
+   ======================================================= */ 
+.Events{
+    background-image: url("../img/DSC_0173%20copy.png");
+        -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -e-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: center; /* Safari 6.1+ */
+    display: flex;
+    justify-content: center;
+}
+.bigScreen .event1{
+    margin-left: 10%;
+}
+.miniEvent{
+    width: 100%;
+}
+.miniScreen{
+            display: none;
+        }
+.miniDiscreption{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 70%;
+    z-index: 6;
+    color: #ddd;
+    margin-left: 14%;}
+.miniDiscreption h4 {
+    margin-top: 25px;
+}
+
+
+/* ============================================================= 
+ ** Start Statistics Section V1.0
+ ** 
+   ======================================================= */ 
+.statistics {
+    background: url(../img/digital-wallpaper-14.jpg) no-repeat center center ;
+    -webkit-background-size : cover ;
+    -moz-background-size : cover ;
+    -o-background-size : cover ;
+    background-size : cover ;
+
+        min-height: 400px;
+    color: #797979;
+    
+}
+.statistics h2{
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+.statistics .overLay {
+    background-color: rgba(3,3,3,.8);
+    min-height: 400px;
+    color: #D0D0D0;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.statistics .stat {
+    margin-bottom: 20px;
+    -webkit-transition: all .5s ease-in-out;
+    -mox-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+
+}
+
+.statistics .stat .fa {
+    margin-bottom: 10px;
+}
+.statistics .stat:hover {
+    color: #fff;
+}
+.statistics .stat p {
+    font-size: 35px;
+    font-weight: bold;
+}
+.statistics .stat span {
+    font-size: 15px;
+}
+
+
+/*  End Statistics section */ 
+/*- ------------------------------------------------------------------- */
+/*  Start Progress section */ 
+/* ============================================================= 
+ ** Start Statistics Section V1.0
+ ** 
+   ======================================================= */ 
+
+.Blog {
+    background: url(../img/Blog.jpg) no-repeat center center ;
+    -webkit-background-size : cover ;
+    -moz-background-size : cover ;
+    -o-background-size : cover ;
+    background-size : cover ;
+
+        min-height: 400px;
+    color: #fff;
+    
+}
+
+.Blog .overLay{
+        background-color: rgba(0,0,0,.4);
+    min-height: 400px;
+    color: #D0D0D0;
+    padding-bottom: 30px;
+    padding-top: 50px;
+
+}
+.Blog h2 {
+    margin-bottom: 100px;
+    color: #fff;
+}
+.Blog p{
+    color: #fff;
+}
+/*- ------------------------------------------------------------------- */
+/* ============================================================= 
+ ** Start Contact Us Section V1.0
+ ** 
+   ======================================================= */ 
+.contactUs{
+    margin-bottom: 40px;
+}
+.icons a {
+    padding: 5px;
+}
+.icons p{
+    color: #716f84;
+    font-style: italic; 
+}
+.icons a img {
+        -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -e-filter: grayscale(100%);
+        filter: grayscale(100%);
+    transition: .3s all ease-in-out;
+
+}
+.icons a img:hover {
+        -webkit-filter: grayscale(0%);
+
+}
+/* ============================================================= 
+ ** Start Contact Us Section V1.0
+ ** 
+   ======================================================= */ 
+
+.footer{
+    min-height: 100px;
+    background-color: #ddd;
+}
+.contactLinks{
+    margin-top: 40px;
+}
+.contactLinks  a{
+        padding: 5px;
+           color: #716f84;
+
+}
